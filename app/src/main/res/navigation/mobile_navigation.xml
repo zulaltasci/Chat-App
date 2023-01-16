@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_groupCreate">
+
+    <fragment
+        android:id="@+id/nav_groupCreate"
+        android:name="com.example.mychatapp.ui.home.HomeFragment"
+        android:label="@string/menu_groupCreate"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_groupAdd"
+        android:name="com.example.mychatapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_groupAdd"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_messageCreate"
+        android:name="com.example.mychatapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_messageCreate"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_messageSend"
+        android:name="com.example.mychatapp.nav_messageSend"
+        android:label="@string/menu_messageSend"
+        tools:layout="@layout/fragment_nav_message_send" />
+</navigation>

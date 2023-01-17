@@ -9,19 +9,19 @@
         android:id="@+id/nav_groupCreate"
         android:name="com.example.mychatapp.ui.home.HomeFragment"
         android:label="@string/menu_groupCreate"
-        tools:layout="@layout/fragment_home"  />
+        tools:layout="@layout/fragment_nav_group_create"  />
 
     <fragment
         android:id="@+id/nav_groupAdd"
-        android:name="com.example.mychatapp.ui.gallery.GalleryFragment"
+        android:name="com.example.mychatapp.ui.gallery.GroupCreate"
         android:label="@string/menu_groupAdd"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_nav_group_add" />
 
     <fragment
         android:id="@+id/nav_messageCreate"
         android:name="com.example.mychatapp.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_messageCreate"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_nav_message_create" />
     <fragment
         android:id="@+id/nav_messageSend"
         android:name="com.example.mychatapp.nav_messageSend"
